@@ -16,4 +16,3 @@ WORKDIR /tmp/project
 RUN /opt/jooby/bin/jooby set -w /tmp/project
 
 ENTRYPOINT ["/opt/jooby/bin/jooby"]
-

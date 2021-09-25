@@ -7,4 +7,3 @@ services:
     user: $USER_ID:$GROUP_ID
     stdin_open: true
     tty: true
-
