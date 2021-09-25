@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jooby-cli:
+    build:
+      context: .
+    image: jooby-cli
+    user: $USER_ID:$GROUP_ID
+    stdin_open: true
+    tty: true
+
